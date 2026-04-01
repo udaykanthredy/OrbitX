@@ -1,25 +1,15 @@
 # 🚀 OrbitX
 
-OrbitX is a scalable full-stack platform designed to build intelligent applications using modern web technologies and AI-powered workflows. It combines a high-performance backend, modern frontend, and real-time analytics pipeline to deliver a seamless developer and user experience.
+OrbitX is a modern full-stack web platform built using **JavaScript, TypeScript, and Tailwind CSS**. It follows a modular architecture with a scalable backend, a clean frontend, and an integrated analytics layer.
 
 ---
 
-## 🌟 Features
+## 📂 Project Structure
 
-- ⚡ High-performance backend architecture  
-- 🧠 AI-powered workflows (LLM integrations)  
-- 📊 Real-time analytics and tracking system  
-- 🔐 Secure API design with validation  
-- 🌐 Modern frontend with responsive UI  
-- ☁️ Cloud-ready infrastructure (Firebase, BigQuery)
-
----
-
-## 🏗️ Architecture Overview
 
 OrbitX/
 │
-├── backend/ # API server
+├── backend/ # API server (Node.js / TypeScript)
 │ ├── routes/ # API endpoints
 │ ├── services/ # Business logic
 │ ├── models/ # Data models
@@ -37,35 +27,49 @@ OrbitX/
 
 ---
 
-## ⚙️ Tech Stack
+## 🧠 Overview
 
-### Backend
-- FastAPI / Node.js  
-- Python / JavaScript  
-- Firebase / Firestore  
-- Google BigQuery  
+OrbitX is designed to be **scalable, maintainable, and developer-friendly**.  
+It separates responsibilities into backend, frontend, and analytics layers.
 
-### Frontend
-- React / Next.js  
-- Tailwind CSS  
-
-### AI & Data
-- LangChain / LangGraph  
-- Hugging Face / OpenAI APIs  
+### ✨ Features
+- ⚡ TypeScript-powered backend & frontend
+- 🎨 Modern UI with Tailwind CSS
+- 📊 Built-in analytics tracking system
+- 🧩 Modular and extensible architecture
+- 🔐 Middleware-based backend structure
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-### 1️⃣ Clone the repository
+### Backend
+- Node.js
+- TypeScript
+- Express.js (or similar)
+
+### Frontend
+- React.js / Next.js
+- TypeScript
+- Tailwind CSS
+
+### Analytics
+- Custom event tracking
+- Data processing modules
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/udaykanthredy/OrbitX.git
+git clone https://github.com/your-username/OrbitX.git
 cd OrbitX
-
+2️⃣ Backend Setup
 cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-
+npm install
+npm run dev
+3️⃣ Frontend Setup
 cd frontend
 npm install
 npm run dev
